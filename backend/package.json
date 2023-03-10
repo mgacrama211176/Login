@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "express-es6-module-boilerplate": "^1.0.0"
+  }
+}
