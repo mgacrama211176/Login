@@ -1,10 +1,10 @@
 import React from "react";
-import Login from "./components/Login";
+import LoginModal from "./components/LoginModal";
 
 const App = () => {
   return (
     <div className="flex justify-center items-center  h-screen">
-      <Login />
+      <LoginModal />
     </div>
   );
 };
