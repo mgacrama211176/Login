@@ -16,6 +16,11 @@ const style = {
   p: 4,
 };
 
+const btnStyl = {
+  color: "black",
+  border: "1px solid black",
+};
+
 export default function BasicModal() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -23,7 +28,9 @@ export default function BasicModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Login</Button>
+      <Button onClick={handleOpen} sx={btnStyl}>
+        Login
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}
